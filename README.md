@@ -6,6 +6,12 @@ The project was built for **THE 2022 SOUTH-EAST ASIA CIRCUIT AND SYSTEM SOCIETY 
 
 ---
 
+##  Achievement
+**🏅 Awarded “Fighting Spirit Prize” – IEEE SEACAS Hackathon 2022**  
+> Recognized for outstanding teamwork, innovation, and practical implementation of IoT-based smart room technology among international teams from Vietnam, Thailand, and the Philippines.
+
+---
+
 ## Contributors
 1. **Long Nguyen Khac**, Vietnam National University, Viet Nam  
 2. **Marcus Joseph L. Reyes**, University of the Philippines Diliman, Philippines  
@@ -37,7 +43,7 @@ Manual switching often leaves lights and appliances **on in empty rooms**, wasti
 
 ---
 
-## ⚙️ Operation
+## Operation
 1. Two IR sensors are placed at the entrance. The **trigger order** encodes **direction**:  
    - **Sensor A → Sensor B** → *Entering*  
    - **Sensor B → Sensor A** → *Leaving*  
