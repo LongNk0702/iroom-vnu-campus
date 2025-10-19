@@ -6,7 +6,7 @@ The project was built for **THE 2022 SOUTH-EAST ASIA CIRCUIT AND SYSTEM SOCIETY 
 
 ---
 
-## 👥 Contributors
+## Contributors
 1. **Long Nguyen Khac**, Vietnam National University, Viet Nam  
 2. **Marcus Joseph L. Reyes**, University of the Philippines Diliman, Philippines  
 3. **Wiphoothorn Sangangam**, Kasetsart University, Thailand
@@ -14,12 +14,12 @@ The project was built for **THE 2022 SOUTH-EAST ASIA CIRCUIT AND SYSTEM SOCIETY 
 
 ---
 
-## 🧭 Introduction
+## Introduction
 Manual switching often leaves lights and appliances **on in empty rooms**, wasting energy and reducing equipment lifespan. In smart campus scenarios (classrooms, labs, bathrooms, dorms), a **privacy‑preserving** occupancy tracker that also monitors environmental conditions can **reduce power consumption**, **improve comfort**, and **streamline facility management**.
 
 ---
 
-## ❓ What is iRoom?
+## What is iRoom?
 **iRoom** is an **automatic occupancy‑aware room controller** that:
 - Detects **entry/exit** using **two IR sensors** mounted near the doorway (directional logic).  
 - **Counts people** currently inside.  
@@ -28,7 +28,7 @@ Manual switching often leaves lights and appliances **on in empty rooms**, wasti
 
 ---
 
-## 🎯 Objectives
+## Objectives
 1. **Enhance energy efficiency** via automatic light/door control.  
 2. **Preserve privacy** by avoiding cameras; use IR beam/sensors instead.  
 3. **Provide real-time monitoring** of occupancy, temperature, and humidity.  
@@ -48,7 +48,7 @@ Manual switching often leaves lights and appliances **on in empty rooms**, wasti
 
 ---
 
-## 🧱 Modules (Hardware)
+## Modules (Hardware)
 - **ESP32‑C3‑32S** (Wi‑Fi + BLE)  
 - **IR Sensors x2** (directional occupancy detection)  
 - **DHT11** (temperature & humidity)  
@@ -59,7 +59,7 @@ Manual switching often leaves lights and appliances **on in empty rooms**, wasti
 
 ---
 
-## 🗄️ Data & Web (Firebase + Dashboard)
+## Data & Web (Firebase + Dashboard)
 - **Firebase Realtime Database** stores:  
   ```json
   {
@@ -76,7 +76,7 @@ Manual switching often leaves lights and appliances **on in empty rooms**, wasti
 
 ---
 
-## 🧩 File Structure
+## File Structure
 ```
 iRoom/
 ├── iRoom.ino                  # Main Arduino code (ESP32‑C3 + Firebase + IR + DHT11)
@@ -86,11 +86,11 @@ iRoom/
 └── README.md                  # This file
 ```
 
-> 💡 **Recommended code filename**: `iRoom.ino` (instead of `demo4.ino`).
+> **Recommended code filename**: `iRoom.ino` (instead of `demo4.ino`).
 
 ---
 
-## 🔧 Setup & Configuration
+## Setup & Configuration
 1. **Hardware wiring**: mount two IR sensors at the doorway; connect DHT11 and LED/relay to ESP32‑C3 GPIOs.  
 2. **Arduino IDE**: install ESP32 boards and required libraries (*WiFi*, *Firebase ESP Client*, *DHT*).  
 3. **Firebase**: create a Realtime Database → get **Database URL** & **Auth/keys**.  
@@ -105,7 +105,7 @@ iRoom/
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 - Handle **simultaneous multi‑person** crossings (debounce, timing windows, ML filter).  
 - **Calibration** tools for IR sensor spacing and thresholds.  
 - Add **motion/CO₂** sensors and **HVAC control** logic.  
@@ -114,12 +114,12 @@ iRoom/
 
 ---
 
-## 🙌 Acknowledgements
+## Acknowledgements
 Built for **IEEE SEACAS Hackathon 2022** (Hanoi, Viet Nam). Thanks to organizers, mentors, and volunteers for hardware kits and guidance.
 
 ---
 
-## 📜 License
+## License
 MIT License © 2022 iRoom Team 6  
 Developed for educational and research purposes.
 
