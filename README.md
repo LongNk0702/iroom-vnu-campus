@@ -11,10 +11,6 @@ The project was built for **THE 2022 SOUTH-EAST ASIA CIRCUIT AND SYSTEM SOCIETY 
 2. **Marcus Joseph L. Reyes**, University of the Philippines Diliman, Philippines  
 3. **Wiphoothorn Sangangam**, Kasetsart University, Thailand
 
----
-
-## 📄 Abstract
-**iRoom** is an intelligent, low-cost occupancy and environment monitoring solution for smart campus rooms and facilities. Using a pair of IR sensors, the system performs **directional people counting** (enter/exit) without cameras, controls **lights/doors** based on occupancy, and continuously uploads **temperature**/**humidity** data to **Firebase** for **real-time visualization** on a web interface. iRoom targets **energy efficiency**, **comfort**, and **safety** at scale.
 
 ---
 
@@ -57,7 +53,7 @@ Manual switching often leaves lights and appliances **on in empty rooms**, wasti
 - **IR Sensors x2** (directional occupancy detection)  
 - **DHT11** (temperature & humidity)  
 - **LED / Relay** (simulate or control lights/door)  
-- *(Optional)* **TFT/LCD (I2C)** for local status display
+- **TFT/LCD (I2C)** for local status display
 
 > **Approx. cost** (prototype): ~ **$6.35** (ESP32‑C3, IR sensors x2, DHT11, LED)
 
@@ -85,8 +81,8 @@ Manual switching often leaves lights and appliances **on in empty rooms**, wasti
 iRoom/
 ├── iRoom.ino                  # Main Arduino code (ESP32‑C3 + Firebase + IR + DHT11)
 ├── /images/                   # Prototype & demo images
-├── iRoom_Presentation.pdf     # Project slides (IEEE SEACAS 2022)
-├── SEACAS_Hackathon_Info.pdf  # Hackathon background (agenda, rules)
+├── SEACAS Hackathon 2022-TXT.pdf     # Hackathon background (agenda, rules) (IEEE SEACAS 2022)
+├── iRooms_Slide.pdf  # Hackathon background # Project presentation slides
 └── README.md                  # This file
 ```
 
